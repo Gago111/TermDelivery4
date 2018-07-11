@@ -1,0 +1,1000 @@
+/* Header Styling */
+html {
+  height: 100%;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  line-height: 1.42857143;
+}
+
+.header {
+  background-color: #0b98ea;
+  padding: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 50px;
+}
+
+.h1 {
+  positon: relative;
+  margin-top: 0px;
+  margin-left: 120px;
+  color: white;
+  font-size: 40px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+ul li a:hover {
+  color: orange;
+}
+
+ul li {
+  list-style: none;
+  /*verwijdert de punten van de li*/
+  display: inline-block;
+  /*verandert li in horizontaal*/
+  padding: 24px;
+  /*geeft space around de element*/
+}
+
+ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  left: 600px;
+  bottom: 70px;
+}
+
+.toggle {
+  width: 100%;
+  /*geeft je de breedte van de color #001f44*/
+  padding: 10px 20px;
+  /*top,botton and left and right padding is being changed*/
+  background: #001f44;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .toggle {
+    display: block;
+  }
+  ul {
+    /*unorderd list*/
+    width: 100%;
+    display: none;
+  }
+  ul li {
+    display: block;
+    /*display van ul li komt onderelkaar*/
+    text-align: center;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+  .row ul li {
+    visibility: hidden;
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  .h1 {
+    font-size:1.5em;
+    position:relative;
+    right:60px;
+  }
+}
+/* END OF HEADER STYLING */
+
+/* START BANNER STYLING */
+
+img {
+  /* height:500px; */
+  /* width:1536px; */
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 71px;
+}
+
+button {
+  position: relative;
+  font-size: 19px;
+  left: 1260px;
+  bottom: 390px;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  height: 50px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 0.5mm;
+  font-family: 'Raleway', sans-serif;
+}
+
+button a {
+  text-decoration: none;
+}
+
+/* End banner style */
+
+/*overmij */
+
+.Aboutme {
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  position: relative;
+  bottom: 100px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.0em;
+  color: #0b98ea;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+section {
+  position: relative;
+  right: 309px;
+  float: right;
+  bottom: 70px;
+  background: #0b98ea;
+  padding: 7em 5em;
+  height: 180px;
+  width: 15em;
+  box-shadow: -2px 7px 27px -4px #000;
+}
+
+section p, h4 {
+  position: relative;
+  right: 40px;
+  color: white;
+}
+
+section h4 {
+  position: relative;
+  bottom: 100px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+section p {
+  position: relative;
+  bottom: 130px;
+}
+
+/* .info1 p {
+  position: relative;
+  bottom: 90px;
+} */
+
+.info2 p {
+  position: relative;
+  bottom: 175px;
+}
+
+.info3 p {
+  position: relative;
+  bottom: 224px;
+}
+
+.info4 p {
+  position: relative;
+  bottom: 268px;
+}
+
+.info5 p {
+  position: relative;
+  bottom: 327px;
+}
+
+.info2 h4 {
+  position: relative;
+  bottom: 145px;
+}
+
+.info3 h4 {
+  position: relative;
+  bottom: 195px;
+}
+
+.info4 h4 {
+  position: relative;
+  bottom: 240px;
+}
+
+.info5 h4 {
+  position: relative;
+  bottom: 295px;
+  */
+}
+
+.info1 hr {
+  position: relative;
+  width: 120%;
+  right: 39px;
+  bottom: 130px;
+}
+
+.info2 hr {
+  position: relative;
+  width: 120%;
+  right: 39px;
+  bottom: 175px;
+}
+
+.info3 hr {
+  position: relative;
+  width: 120%;
+  right: 39px;
+  bottom: 225px;
+}
+
+.info4 hr {
+  position: relative;
+  width: 120%;
+  right: 39px;
+  bottom: 273px;
+}
+
+.info5 hr {
+  position: relative;
+  width: 120%;
+  right: 39px;
+  bottom: 329px;
+}
+
+#slideshow {
+  position: relative;
+  height: auto;
+  width: 400px;
+  left: 300px;
+  padding: 0;
+}
+
+.seth1 img {
+  height: 360px;
+  width: 400px;
+  position: relative;
+  bottom: 83px;
+  right: -54px;
+  background: #fff;
+  border: 23px solid #fff;
+  box-shadow: -2px 7px 27px -4px #000;
+}
+
+.seth2 img {
+  height: 360px;
+  width: 400px;
+  position: relative;
+  bottom: 83px;
+  right: -54px;
+  background: #fff;
+  border: 23px solid #fff;
+  box-shadow: -2px 7px 27px -4px #000;
+}
+
+.seth3 img {
+  height: 360px;
+  width: 400px;
+  position: relative;
+  bottom: 83px;
+  right: -54px;
+  background: #fff;
+  border: 23px solid #fff;
+  box-shadow: -2px 7px 27px -4px #000;
+}
+
+.seth4 img {
+  height: 360px;
+  width: 400px;
+  position: relative;
+  bottom: 83px;
+  right: -54px;
+  background: #fff;
+  border: 23px solid #fff;
+  box-shadow: -2px 7px 27px -4px #000;
+}
+
+#slideshow>div {
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* Animated skillbbar */
+
+.skilz {
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  position: relative;
+  top: 70px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.0em;
+  color: #0b98ea;
+  left: 210px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.progressBar {
+  position: relative;
+  width: 50%;
+  height: 20px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px #222;
+}
+
+.box1 {
+  position: relative;
+  left: 60px;
+  top: 470px;
+  width: 70em;
+}
+
+.parallax {
+  margin: 0 auto;
+  height: 0 auto;
+}
+
+.box2 {
+  position: relative;
+  left: 800px;
+  top: 345px;
+  width: 70em;
+}
+
+.title {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  padding-left: 13px;
+  float: left;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2.5;
+  z-index: 10000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 2px 0 2px #333;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.progress_value {
+  position: relative;
+  float: right;
+  padding-right: 5px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #fff;
+  z-index: 10000;
+  font-family: 'Raleway', sans-serif;
+}
+
+.progress {
+  height: 10px;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: 2px 0 2px #555;
+  border-color: white;
+}
+
+.htmlColor {
+  background: #f1703a;
+  font-size: 10px;
+}
+
+.cssColor {
+  background: #2980b9;
+  font-size: 8.5px;
+}
+
+.cssColor a {
+  margin-right: 40px;
+}
+
+.jsColor {
+  background: #a0d034;
+  font-size: 10px;
+}
+
+.phpColor {
+  background: #f1703a;
+  font-size: 10px;
+}
+
+.ajaxColor {
+  background: #2980b9;
+  font-size: 10px;
+}
+
+.seoColor {
+  background: #a0d034;
+  font-size: 10px;
+}
+
+.html {
+  background: rgb(248, 140, 94);
+  height: 20px;
+}
+
+.css {
+  background: rgb(52, 152, 219);
+  height: 20px;
+}
+
+.js {
+  background: rgb(178, 236, 47);
+  height: 20px;
+}
+
+.php {
+  background: rgb(248, 140, 94);
+  height: 20px;
+}
+
+.ajax {
+  background: rgb(52, 152, 219);
+  height: 20px;
+}
+
+.seo {
+  background-color: rgb(178, 236, 47);
+  height: 20px;
+}
+
+@media (max-width: 720px) {
+  .main {
+    width: 90%;
+  }
+}
+
+.notebookIMG {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+/* end animated skillbar */
+
+/* start my services  */
+
+.mijndiensten {
+  color: blue;
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.0em;
+  color: #0b98ea;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  display: inline;
+}
+
+.services {
+  width: 240px;
+  color: white;
+  height: 240px;
+  position: relative;
+  margin-left: 55px;
+  left: 260px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: rgba(245, 129, 11, 0.82);
+  border-radius: 6px;
+  font-size: 3em;
+}
+
+.services i {
+  margin-top: 30px;
+}
+
+.advies {
+  position: relative;
+  top: 15px;
+  left: 2px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.text i {
+  width: 240px;
+  color: white;
+  height: 240px;
+  position: relative;
+  margin-left: 40px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  border-radius: 6px;
+  font-size: 3em;
+}
+
+/* end my services  */
+
+/* h1,h2,h3,h4,h5,h6 {
+  font-family:'Josefin Sans', sans-serif
+  color:#0b98ea;
+} */
+
+/* hobbys */
+
+.hobbys {
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  position: relative;
+  top: 40px;
+  margin: 0 auto;
+  font-size: 2.0em;
+  text-align: center;
+  color: #0b98ea;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.icons-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon1 {
+  display: inline-block;
+  margin-left: 160px;
+  margin-top: 100px;
+}
+
+.icon1 i {
+  font-size: 3.1em;
+  color: white;
+}
+
+.icon1 p {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  line-height: 1.9em;
+  letter-spacing: 1px;
+}
+
+/*Education*/
+
+.container2 {
+  padding: 5em;
+  background-color: #211f1f;
+  border-style: solid;
+  margin-top: 50px;
+}
+
+.opleiding {
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  position: relative;
+  bottom: 40px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.0em;
+  color: #0b98ea;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.school-info1 {
+  color: white;
+}
+
+.school-info2 {
+  color: white;
+}
+
+.school-info3 {
+  color: white;
+}
+
+.school p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 55em 0 0;
+  color: black;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.school h5 {
+  display: inline-block;
+  border-bottom: 1px dotted #a29f9f;
+  background: #fff;
+  width: 80%;
+  transition: all linear 0.15s;
+  color: #f5810b;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.school {
+  border-style: dotted;
+  background-color: white;
+  width: 60%;
+  height: 25%;
+  border-width: 1px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 auto;
+}
+
+.last-year {
+  position: relative;
+  top: 26px;
+  left: 22px;
+}
+
+.second-year {
+  position: relative;
+  left: 22px;
+}
+
+.first-year {
+  position: relative;
+  bottom: 30px;
+  left: 22px;
+}
+
+.friese {
+  position: relative;
+  left: 120px;
+  bottom: 15px;
+}
+
+.pieter {
+  position: relative;
+  left: 120px;
+  bottom: 42px;
+}
+
+.basis {
+  position: relative;
+  left: 120px;
+  bottom: 72px;
+}
+
+/* end education */
+
+/* scroll up */
+
+.scrollToTop {
+  width: 100px;
+  height: 130px;
+  padding: 10px;
+  text-align: center;
+  background: whiteSmoke;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  position: fixed;
+  top: 75px;
+  right: 40px;
+  display: none;
+  background: url('img/scroll-up.jpg') no-repeat 0px 20px;
+  font-size: 30em;
+}
+
+.scrollToTop:hover {
+  text-decoration: none;
+  font-size: 50em;
+}
+
+.scrollToTop a {
+  font-size: 50em;
+}
+
+/* scroll up end */
+
+/* Contact me */
+
+#message_div {
+  color: #f5810b;
+  position: relative;
+  bottom: 500px;
+}
+
+.section2 {
+  position: relative;
+  float: left;
+  bottom: 560px;
+  left: 200px;
+  background: #fff;
+  padding: 3em 4em;
+  height: 385px;
+  width: 19em;
+  border-bottom: 5px;
+  box-shadow: -2px 7px 27px -4px #000;
+}
+
+.section2 input[type="text"], .section input [type="email"] {
+  width: 100%;
+  color: #000;
+  background: none;
+  outline: none;
+  font-size: 0.8em;
+  padding: .8em 1.0em;
+  margin-bottom: 40px;
+  margin-bottom: 2em;
+  border: none;
+  border-bottom: solid 1px #000;
+  font-familiy: 'Raleway', sans-serif;
+}
+
+.sectioninfo1 {
+  position: relative;
+  bottom: 50px;
+}
+
+.section2 textarea {
+  resize: none;
+  width: 100%;
+  background: none;
+  color: #000;
+  font-size: .9em;
+  outline: none;
+  padding: .2 0.5em;
+  border: none;
+  border-bottom: solid 1px #000;
+  min-height: 8.5em;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+::-webkit-input-placeholder textarea {
+  position: relative;
+  right: 0px;
+}
+
+.section2 hr {
+  position: relative;
+  bottom: 110px;
+  color: black;
+}
+
+textarea {}
+
+.ContactMetitle {
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  position: relative;
+  bottom: 600px;
+  font-size: 2.0em;
+  margin: 0 auto;
+  text-align: center;
+  color: #0b98ea;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.contactMeInfo {
+  position: relative;
+  right: 250px;
+  top: 260px;
+}
+
+h3 {
+  position: relative;
+  bottom: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #0b98ea;
+  font-size: 1.3em;
+}
+
+.Adres {
+  position: relative;
+  bottom: 148px;
+  margin-left: 900px;
+  background: #fff;
+  padding: 2.3em 3em;
+  height: 20px;
+  width: 11em;
+  box-shadow: 0px 2px 13px -1px rgba(0, 0, 0, 0.75);
+  color: #0b98ea;
+}
+
+.Adres p {
+  position: relative;
+  bottom: 69px;
+  font-size: 1.2em;
+  right: 30px;
+}
+
+/* h5 {
+  position:relative;
+  left:70em;
+  bottom:6em;
+} */
+
+.test1 {
+  position: relative;
+  left: 693px;
+  bottom: 280px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.test2 {
+  position: relative;
+  left: 693px;
+  bottom: 165px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.test3 {
+  position: relative;
+  left: 693px;
+  bottom: 60px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.test4 {
+  position: relative;
+  bottom: 25em;
+  left: 5em;
+}
+
+.Telefoon {
+  position: relative;
+  bottom: 130px;
+  margin-left: 900px;
+  background: #fff;
+  padding: 2.6em 8.5em;
+  height: 2px;
+  width: 11em;
+  box-shadow: 0px 2px 13px -1px rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+  color: #0b98ea;
+}
+
+.Telefoon p {
+  position: relative;
+  bottom: 69px;
+  font-size: 1.2em;
+  right: 160px;
+}
+
+.mail {
+  position: relative;
+  bottom: 105px;
+  margin-left: 900px;
+  background: #fff;
+  padding: 2.3em 3em;
+  height: 30px;
+  width: 11em;
+  box-shadow: 0px 2px 13px -1px rgba(0, 0, 0, 0.75);
+  color: #0b98ea;
+}
+
+.mail p {
+  position: relative;
+  bottom: 69px;
+  font-size: 1.2em;
+  right: 20px;
+}
+
+.section2 input[type="submit"] {
+  outline: none;
+  color: #fff;
+  padding: .8em 3.5em;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  margin: 1em 0 0 0;
+  -webkit-appearance: none;
+  background: #f5810b;
+  border: solid 1px #f5810b;
+  -webkit-transition: 0.5s all;
+}
+
+/* end of contact me */
+
+/* footer */
+
+.footer {
+  background: #232323;
+  text-align: center;
+  padding: 2em 0em;
+}
+
+.icon {
+  display: inline-block;
+  color: white;
+  width: 20px;
+  padding-right: 35px;
+  position: relative;
+  right: 235px;
+  font-size: 1.0em;
+  border-color: white;
+  border-radius: 40px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  margin-left: 10mm;
+}
+
+.copyrights {
+  text-align: center;
+  padding: 0.5em 0em;
+  background: #1f1f1f;
+  color: white;
+}
+
+.icon i {
+  color: #fff;
+}
+
+.icon i:hover {
+  color: red;
+}
+
+.copyrights p {
+  position: relative;
+  right: 220px;
+}
+
+/* end footer */
